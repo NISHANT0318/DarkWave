@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "DarkWave",
+  "version": "1.0.0",
+  "description": "Adaptive Night Mode with Focus Modes for a better browsing experience.",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": ["activeTab", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "/icons/icon16.png",
+    "48": "/icons/icon48.png",
+    "128": "/icons/icon128.png"
+  }
+}
